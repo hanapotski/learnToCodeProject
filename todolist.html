@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sample Page</title>
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <img id="logo" src="logo.png" alt="logo">
+     <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="todolist.html">To do List</a>
+      </nav>
+    </div><!--end of header-->
+      <div id="main">
+        <h1>To Do List <input type="text" placeholder="Enter an activity.." size="30" id="inputTODO">
+        <button type="submit" id="addTODO" onclick="addTODO()">Add</button></h1>
+        <h2>To Do</h2><br><br>
+        <ul id="listTODO">
+
+      </ul><br><br>
+        <h2>Finished</h2><br>
+        <ul id="listDone">
+
+      </ul>
+
+     </div><!--end of main-->
+
+    </div><!--end of wrapper-->
+  </body>
+</html>
